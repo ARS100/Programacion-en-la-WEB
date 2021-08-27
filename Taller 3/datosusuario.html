@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>
+    Datos del usuario
+ </title>
+</head>
+<body>
+<h3>Rellena tu CV</h3>
+<form>
+    Nombre:
+</br>
+<input type = "text" name = "nombre" >
+</br>
+    Apellidos:
+</br>
+<input type = "text"  name = "apellidos" size = "50">
+</br>
+    Contraseña:
+</br>
+<input type = "password"  name = "contraseña">
+</br>
+    Confirme contraseña:
+</br>
+<input type = "password"  name = "confirmacion">
+</br>
+    Identificacion:
+</br>
+<select name= "select">
+<option value = "TI" selected>TI</option>
+<option value = "CE" >CE</option>
+<option value = "CC">CC</option>
+</select>
+
+<input type = "text"  name = "codigo" size = "10">
+</br>
+Sexo:
+</br>
+
+<input type = "radio" name = "sexo" value = "hombre" checked="checked">
+Hombre
+</br>
+<input type = "radio" name = "sexo" value = "mujer">
+Mujer
+<br>
+</br>
+Incluir mi foto:
+</br>
+<input type = "file" name = "foto" > 
+<br></br>
+<input type = "checkbox" name = "estudiante">
+Estudiante...
+<br></br>
+<fieldset>
+<legend>Datos personales</legend>
+Departamento:
+</br>
+<select name = "select">
+<option selected>-selecciona-</option>
+<option name ="Santander">Antioquia</option>
+<option name ="Antioquia">Antioquia</option>
+<option name ="Cundinamarca">Cundinamarca</option>
+<option name ="Atlantico">Atlantico</option>
+<option name ="Amazonas">Amazonas</option>
+<option name ="Norte de Santander">Norte de Santander</option>
+</select>
+<br></br>
+Fecha de nacimiento:
+<input type = "number" name= dia> de
+<select name = "mes">
+    <option name = "Enero" selected>Enero</option>
+    <option name = "Febrero">Febrero</option>
+    <option name = "Marzo">Marzo</option>
+    <option name = "Abril">Abril</option>
+    <option name = "Mayo" >Mayo</option>
+    <option name = "Junio" >Junio</option>
+    <option name = "Julio" >Julio</option>
+    <option name = "Agosto" >Agosto</option>
+    <option name = "Septiembre" >Septiembre</option>
+    <option name = "Octubre" d>Octubre</option>
+    <option name = "Noviembre" >Noviembre</option>
+    <option name = "Diciembre" >Diciembre</option>
+</select>
+de 
+<input type = "number" name = "año">
+<br></br>
+<a Temas de interes></a>
+<select name = "lista" multiple>
+    <optgroup label = "Temas de interes">
+
+   <option name ="Administración de bases de datos">Administración de bases de datos</option>
+   <option name ="Analisis y programación">Analisis y programación</option>
+   <option name ="Arquitectura">Arquitectura</option>
+   <option name ="Calidad">Calidad</option>
+   <option name ="ERP, CRM, Business Intelligense">ERP, CRM, Business Intelligense</option>
+
+    </optgroup>
+</select>
+</fieldset>
+<input type ="submit" value = "Guardar cambios">
+<input type ="submit" value = "Borrar los datos introducidos">
+
+</form>
+</body>
+
+</html>
