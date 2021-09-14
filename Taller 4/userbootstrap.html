@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+<title>Userbootstrap</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<link href="userbootstrap.css" rel="stylesheet">
+</head>
+<body  class="container bg-info p-2 text-center" style="--bs-bg-opacity: .3">
+    
+    <div class="justify-content-center alig-items-center border border-success">
+   
+        <h3> Formulario de registro </h3> 
+  
+    <img src="bootstrap.jpg" class="rounded float-end" alt="">
+    <form method=GET >
+    
+        <div class = "idfull" >
+            <div class="row 2" >            
+                <div class="col-1" >
+                    Id_Usuario
+                    <input type = "number" style="width: 4cm;">
+                </div>
+            
+                <div class="col-2" >
+                    Id_Pais
+                    <select class="form-select" style="width:4cm">
+                        <option value= "value1" selected disabled>Elija una opción</option>
+                        <option value="value1">1101</option>
+                        <option value="value2">1021</option>
+                        <option value="value3">1303</option>
+                    </select>
+                </div>
+            </div>   
+        </div>         
+
+            
+    <br/>
+
+    Nombre
+    <input name = "nombre", type="text", size = 25>
+    <br/>
+    <br/>
+    Apellido
+    <input name = "apellido", type="text", size = 25>
+    <br/>
+    <br/>
+    Dirección
+    <input name = "dirección", type="text", size = 45>
+    <br/>
+    <br/>
+    Cedula de ciudadanía de usuario
+    <input name = "ccusuario", type="text", size = 20>
+    <br/>
+    <br/>
+    Cedula de ciudadania Password
+    <input name = "ccpassword", type="password", size = 60>
+    <br/>
+    <br/>
+    Email
+    <input name = "email", type="email", size = 120>
+    <br/>
+    <br/>
+    Telefono
+    <input name = "telefono", type="email", size = 20>
+    <br/>
+        <br/>
+        <div class="position-relative">
+            <div class="position-absolute top-100 start-50 translate-middle">
+                <input class="btn btn-primary alig-items-center" type="submit" value="Registrar"></input>
+            </div>
+        </div>  
+    </form>
+<br/>
+
+
+
+</div>
+
+</body>

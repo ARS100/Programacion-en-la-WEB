@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+             <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>UserMaterialize</title>
+    </head>
+    
+<body style="background-color: tomato;">
+    <div class = "container" style="background-color:#90caf9; margin-top:30px; margin-bottom: 30px ; border:solid 0.3cm;">
+        <div class = "form" style="margin: 10px; height: 16cm; line-height:0.5px" >
+            <div class= "row">
+                <div class ="col s12">
+                    <center>
+                    <h3> <b>FORMULARIO DE REGISTRO</b></h3>
+                    </center>
+                </div>
+            </div>
+            <form  class="col s12">
+                <div class="row">
+                    <div class="input-field col s6">
+                        
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="icon_prefix" type="text" class="validate">
+                        <label for="icon_prefix" style="font-weight: bold;" >Id_Usuario</label>
+    
+                    </div>
+                    <div class="col s6">
+                        <div class="row">
+                        <label style="font-weight: bold;">Id_Pais</label>
+                         </div>
+                         <div class="row " style="margin-top:0.2px">
+                        <select class="browser-default">
+                            <option value="value0" disabled selected>Elija una opción</option>
+                            <option value="value1">Argentina</option>
+                            <option value="value2">Bolivia</option>
+                            <option value="value3">Brasil</option>
+                            <option value="value4">Chile</option>
+                            <option value="value5">Colombia</option>
+                            <option value="value6">Ecuador</option>
+                            <option value="value7">Paraguay</option>
+                            <option value="value8">Perú</option>
+                            <option value="value9">Uruguay</option>
+                            <option value="value10">Venezuela</option>
+                        </select>
+                    </div>
+                       
+                            
+                        
+                    </div>
+                </div>
+                <br/>
+                <div class = "row">
+                    <div class="input-field col s5">
+                        <input id="Nombre" type="text" class="validate">
+                        <label for="Nombre" style="font-weight: bold;">Nombre</label>
+                    </div>
+                    <div class = "input-field col s7">
+                        <input id="Apellidos" type="text" class="validate">
+                        <label for="Apellidos" style="font-weight: bold;">Apellidos</label>
+                    </div>
+                </div>
+                <br/>
+                
+                <div class = "row">
+                    <div class = "input-field col s12">
+                        <input id="Direccion" type="text" class="validate">
+                        <label for="Direccion" style="font-weight: bold;" >Dirección</label>
+                    </div>
+                </div>
+                <br/>
+                
+                <div class = "row">
+                    <div class = "input-field col s7">
+                        <input id="CC" type="text" class="validate">
+                        <label for="CC" style="font-weight: bold;">Cedula de ciudadania de usuario</label>
+                    </div>
+                    <div class="input-field col s5">
+                        <input id="Ccpassword" type="password" class="validate">
+                        <label for="Ccpassword" style="font-weight: bold;">CCpassword</label>
+                </div>
+                </div>
+                <br/>
+                
+                <div class = "row">
+                    <div class = "input-field col s8">
+                        <input id="email" type="text" class="validate">
+                        <label for="email" style="font-weight: bold;">Email</label>
+                    </div>
+                    <div class = "input-field col s4">
+                        <i class="material-icons prefix">phone</i>
+                        <input id="telefono" type="number" class="validate">
+                        <label for="telefono" style="font-weight: bold;">Telefono</label>
+                    </div>
+                </div>
+                <br/>
+   
+                <center>
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Registrar
+                    <i class="material-icons right">send</i>
+                    </button>
+                 </center>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+</body>

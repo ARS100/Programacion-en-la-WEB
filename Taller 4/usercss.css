@@ -1,0 +1,31 @@
+body{
+    background: #F4A460;
+    text-align: center;
+    text-transform: capitalize;
+    justify-content: center;
+
+  }
+html h3{
+    color:green;
+}
+.idfull{
+    
+    border: 6px solid black;
+    border-width: 1cm;
+    border-radius: 1cm;
+    border-style:double;
+    margin:10%;
+    margin-top:0%;
+}
+
+.ids{
+    background-color: lawngreen;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+input[type="submit" i] {
+    background-color: white; 
+      color: black; 
+      border: 2px solid #008CBA;
+}
